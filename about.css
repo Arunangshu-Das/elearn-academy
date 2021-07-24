@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bona Nova', serif;
+}
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 9, 37, 0.7),rgba(84, 86, 93, 0.431)),url("teach.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav img{
+    width: 100px;
+}
+.write h1{
+    font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.change_content:after {
+    content: "";
+    animation: changetext 10s infinite alternate-reverse;
+    color: #37d131;
+    transition: .5s;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "C";
+    }
+    20% {
+      content: "C++";
+    }
+    35% {
+      content: "Java";
+    }
+    60% {
+      content: "Python";
+    }
+    80% {
+      content: "HTML";
+    }
+    100% {
+        content: "CSS";
+      }
+  }
+.about-us
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col
+{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.row
+  {
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .hbtn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #f44336;
+    border: 1px solid #f44336;
+    padding: 12px 34px;
+    font-size: 13;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.hbtn:hover{
+    border: 1px solid #f44336;
+    background-color: #f44336;
+    transition: .5s;
+    color: #fff;
+    text-decoration: none;
+}
+.icons
+{
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #f44336;
+    margin: 0;
+    padding: 0;
+}
+.icons .image {
+    text-align: center;
+}
+k{
+    opacity: 0;
+}
+h1
+{
+  font-size: 72px;
+}
